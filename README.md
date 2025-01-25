@@ -98,7 +98,7 @@
 
 ### NFC Module Setup
 - Default authentication key: `FFFFFFFFFFFF`  
-- Modify block numbers in `readcard.py` (blocks 4-5) and `writecard.py` (blocks 4-12) as needed
+- Block numbers for read/write operations are defined in `readcard.py` and `writecard.py`.
 
 ### Tunneling Setup
 Replace placeholder in `starttunnel.sh`:
