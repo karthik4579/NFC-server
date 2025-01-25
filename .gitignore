@@ -1,0 +1,5 @@
+[label .gitignore]
+*.pyc
+env/
+firebase_credentials.json
+guide.txt

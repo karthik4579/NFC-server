@@ -1,0 +1,13 @@
+[Unit]
+Description=Service for reading and authenticating NFC cards/tags
+After=network.target
+
+[Service]
+Type=idle
+Restart=on-failure
+User=root
+ExecStart=/bin/bash -c 'cd /home/karthik/NFCserver && source env/bin/activate && python readcard.py'
+
+[Install]
+WantedBy=multi-user.target
+

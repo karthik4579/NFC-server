@@ -1,0 +1,2 @@
+sudo bash /home/pi/NFCserver/wsgi.sh
+sudo bash /home/pi/NFCserver/starttunnel.sh
