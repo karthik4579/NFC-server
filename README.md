@@ -19,7 +19,7 @@
   - 📖 *Read Mode*: Verify NFC tags (Yellow LED active)  
   - ✏️ *Write Mode*: Register/Reset tags (Red LED active)  
 - **Firebase Integration**: Real-time authentication & logging  
-- **Encrypted Communication**: AES + Fernet encryption  
+- **Encrypted Communication**: AES using Fernet for encryption  
 - **Remote Management**: Android app control via SocketXP tunneling  
 
 ---
